@@ -1,40 +1,50 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Semantic Table and Media</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
     <table>
-        <tr>
-            <thead>Roll numbers</thead>
-            <thead>Names</thead>
-        </tr>
-        <tr>
-            <td>16</td>
-            <td>Subha</td>
-        </tr>
-        <tr>
-            <td>08</td>
-            <td>Rik</td>
-        </tr>
-        <tr>
-            <td>04</td>
-            <td>Gullu</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Roll Number</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Jane Smith</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Mike Johnson</td>
+            </tr>
+        </tbody>
     </table>
-    <h1>List of medias</h1>
+
+    <h2>List of Medias</h2>
+
     <ol>
-        <li><img source="https://picsum.photos/id/123/200/300" alt="pic"></li>
-        <li><video controls><source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"width="500px" heigth="300px"type="video/mp4"></video></li>
-        <li><audio controls><source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/mp3" width="200px"></audio></li>
+        <li>
+            <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
+        </li>
+        <li>
+            <video controls>
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+            </video>
+        </li>
+        <li>
+            <audio controls>
+                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+            </audio>
+        </li>
     </ol>
     <script type="text/javascript" src="./script.js">
-</script>
-
+    </script>
 </body>
-
 </html>
